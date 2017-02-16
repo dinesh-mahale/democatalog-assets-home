@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: democatalog-assets-home
+  host: democatalog-assets-home
+  disk_quota: 1024M
